@@ -56,9 +56,10 @@ public class AccessFile implements Acess{
          }
     }    
 
-
-    public List<RegistroDoTempo> getRegistros(){
+    @Override
+    public List<RegistroDoTempo> getRegisters(){
         return registers;
     }
-    
+
+   
 }
